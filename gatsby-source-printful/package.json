@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-source-printful",
+  "name": "@nickardson/gatsby-source-printful",
   "version": "1.1.0",
   "description": "Gatsby source plugin for pulling product and variant data from Printful",
   "main": "index.js",
