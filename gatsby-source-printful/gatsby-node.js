@@ -157,8 +157,8 @@ exports.sourceNodes = async (
       slug: parseNameForSlug(variant.name),
       retail_price: parsePriceString(variant.retail_price),
       parentProduct___NODE: sync_product_id,
-      catalogVariant___NODE: variant.id.toString(),
-      catalogProduct___NODE: variant.product.product_id.toString(),
+      // catalogVariant___NODE: variant.id.toString(),
+      // catalogProduct___NODE: variant.product.product_id.toString(),
       variantImage___NODE: variantImageNode,
       internal: {
         type: `PrintfulVariant`,
